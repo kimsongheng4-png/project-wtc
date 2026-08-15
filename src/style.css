@@ -310,7 +310,7 @@ nav ul li a:hover,
 .hero{
     width:100%;
     height:50vh;
-    background:url('/photo9.jpg') center/cover no-repeat;
+    background:url('/project-wtc/photo9.jpg') center/cover no-repeat;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -525,7 +525,7 @@ footer{
 .menu-header{
     text-align:center;
     padding:100px 5px;
-    background:url('photo8.jpg') center/cover no-repeat;
+    background:url('/project-wtc/photo8.jpg') center/cover no-repeat;
     
 }
 
@@ -636,7 +636,7 @@ footer{
 .delivery{
     width:100%;
     height:100vh;
-    background:url('photo7.jpg') center/cover no-repeat;
+    background:url('/project-wtc/photo7.jpg') center/cover no-repeat;
     position:relative;
     display:flex;
     justify-content:center;
@@ -705,7 +705,7 @@ footer{
 .contact{
     width:100%;
     height:100vh;
-    background:url('photo10.jpg') center/cover no-repeat;
+    background:url('/project-wtc/photo10.jpg') center/cover no-repeat;
     display:flex;
     justify-content:center;
     align-items:center;
