@@ -4,11 +4,11 @@ import { useCart } from '../context/CartContext.jsx'
 import Receipt from '../components/Receipt.jsx'
 
 const KHQR_BY_QTY = {
-  1: { img: '/KHQR1.jpg', amount: 2.43 },
-  2: { img: '/KHQR2.jpg', amount: 4.86 },
-  3: { img: '/KHQR3.jpg', amount: 7.29 },
-  4: { img: '/KHQR4.jpg', amount: 9.72 },
-  5: { img: '/KHQR5.jpg', amount: 12.15 },
+1: { img: `${import.meta.env.BASE_URL}KHQR1.jpg`, amount: 2.43 },
+2: { img: `${import.meta.env.BASE_URL}KHQR2.jpg`, amount: 4.86 },
+3: { img: `${import.meta.env.BASE_URL}KHQR3.jpg`, amount: 7.29 },
+4: { img: `${import.meta.env.BASE_URL}KHQR4.jpg`, amount: 9.72 },
+5: { img: `${import.meta.env.BASE_URL}KHQR5.jpg`, amount: 12.15 },
 }
 
 function generateOrderId() {
